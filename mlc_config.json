@@ -1,0 +1,76 @@
+{
+    "ignorePatterns": [
+        {
+            "pattern": "^/"
+        },
+        {
+            "pattern": "^#"
+        },
+        {
+            "pattern": "^./"
+        },
+        {
+            "pattern": "^http://localhost:8877"
+        },
+        {
+            "pattern": "^http://localhost:9090"
+        },
+        {
+            "pattern": "^http://docs.openverse.network"
+        },
+        {
+            "pattern": "^http://community.openverse.network"
+        },
+        {
+            "pattern": "^http://academy.openverse.network"
+        },
+        {
+            "pattern": "^http://docs.tendermint.org"
+        },
+        {
+            "pattern": "^http://docs.cosmos.network"
+        },
+        {
+            "pattern": "^https://faucet.openverse.dev"
+        },
+        {
+            "pattern": "^https://en.wikipedia.org"
+        },
+        {
+            "pattern": "^https://immunefi.com/bounty/openverse"
+        },
+        {
+            "pattern": "^https://github.com/openversenetwork"
+        },
+        {
+            "pattern": "^https://github.com/tendermint"
+        },
+        {
+            "pattern": "^https://eips.ethereum.org"
+        },
+        {
+            "pattern": "^https://medium.com"
+        },
+        {
+            "pattern": "^https://docs.docker.com"
+        },
+        {
+            "pattern": "^https://api.openverse.dev"
+        },
+        {
+            "pattern": "^https://api.openverse.network"
+        },
+        {
+            "pattern": "^https://www.keplr.app"
+        },
+        {
+            "pattern": "^https://metamask.io"
+        },
+        {
+            "pattern": "^https://evm.openverse.dev"
+        }
+  ],
+    "retryOn429": true,
+    "retryCount": 3,
+    "fallbackRetryDelay": "20s"
+}

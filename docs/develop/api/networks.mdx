@@ -1,0 +1,88 @@
+---
+sidebar_position: 1
+---
+
+# Networks
+
+## Public Available Endpoints
+
+Below is a list of publicly available endpoints that you can use to connect to the Openverse mainnet and
+public testnets:
+
+:::tip
+You can also use [chainlist.org](https://chainlist.org/) to add the node directly to [Metamask](./../../use/connect-your-wallet/metamask#automatic-import).
+:::
+
+:::note
+If you are searching for the protobuf interfaces, head over [here](https://buf.build/openverse).
+:::
+
+### Mainnet
+
+| Address                                       | Category               | Maintainer                              | Node Type  |
+| --------------------------------------------- | ---------------------- | --------------------------------------- | -----------|
+| `https://grpc.bd.openverse.network:9090`              | `Cosmos` `gRPC`        | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://rest.bd.openverse.network:1317`              | `Cosmos` `REST`        | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://tendermint.bd.openverse.network:26657`       | `Tendermint` `RPC`     | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://eth.bd.openverse.network:8545`               | `Ethereum` `JSON-RPC`  | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `wss://eth.bd.openverse.network:8546`                 | `Ethereum` `Websocket` | [Blockdaemon](https://blockdaemon.com/) | --  |
+| `https://openverse-json-rpc.stakely.io`           | `Ethereum` `JSON-RPC`  | [Stakely](https://stakely.io/)          | Pruned  |
+| `https://openverse-rpc.stakely.io`                | `Cosmos` `RPC`         | [Stakely](https://stakely.io/)          | Pruned  |
+| `https://openverse-lcd.stakely.io`                | `Cosmos` `REST`        | [Stakely](https://stakely.io/)          | Pruned  |
+| `https://jsonrpc-openverse-ia.cosmosia.notional.ventures/` | `Ethereum` `JSON-RPC`  | [Notional](https://notional.ventures/)  | Pruned  |
+| `https://rpc-openverse-ia.cosmosia.notional.ventures:443`  | `Tendermint` `RPC`     | [Notional](https://notional.ventures/)  | Pruned  |
+| `https://grpc-openverse-ia.cosmosia.notional.ventures:443` | `Tendermint` `gRPC`    | [Notional](https://notional.ventures/)  | Pruned  |
+| `https://api-openverse-ia.cosmosia.notional.ventures:443`  | `Tendermint` `RPC`     | [Notional](https://notional.ventures/)  | Pruned  |
+| `https://rpc.openverse.nodestake.top`             | `Tendermint` `RPC`     | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://grpc.openverse.nodestake.top`            | `Cosmos` `gRPC`        | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://api.openverse.nodestake.top`             | `Cosmos` `REST`        | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://jsonrpc.openverse.nodestake.top`         | `Ethereum` `JSON-RPC`  | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://rpc.openverse.chaintools.tech/`          | `Tendermint` `RPC`     | [ChainTools](https://chaintools.tech/)  | Pruned  |
+| `https://openverse.grpcui.chaintools.host`        | `Cosmos` `gRPC`        | [ChainTools](https://chaintools.tech/)  | Pruned  |
+| `https://api.openverse.chaintools.tech/`          | `Tendermint` `API`     | [ChainTools](https://chaintools.tech/)  | Pruned  |
+| `https://rpc.openverse.silknodes.io`              | `Tendermint` `RPC`     | [Silk Nodes](https://silknodes.io/)     | Pruned  |
+| `https://grpc.openverse.silknodes.io`             | `Cosmos` `gRPC`        | [Silk Nodes](https://silknodes.io/)     | Pruned  |
+| `https://api.openverse.silknodes.io`              | `Cosmos` `REST`        | [Silk Nodes](https://silknodes.io/)     | Pruned  |
+| `https://openverse-mainnet.public.blastapi.io`    | `Ethereum` `JSON-RPC`  | [BLAST](https://blastapi.io/)           | Pruned  |
+| `wss://openverse-mainnet.public.blastapi.io`      | `Ethereum` `Websocket` | [BLAST](https://blastapi.io/)           | Pruned  |
+| `https://openverse-evm.publicnode.com`            | `Ethereum` `JSON-RPC`  | [PublicNode (by Allnodes)](https://openverse.publicnode.com/) | Pruned  |
+| `https://openverse-rpc.publicnode.com`            | `Tendermint` `RPC`     | [PublicNode (by Allnodes)](https://openverse.publicnode.com/) | Pruned  |
+| `https://openverse-rest.publicnode.com`           | `Cosmos` `REST`        | [PublicNode (by Allnodes)](https://openverse.publicnode.com/) | Pruned  |
+| `https://openverse-api.validatrium.club`           | `Tendermint` `API`        | [Validatrium](https://validatrium.com/) | Pruned  |
+| `https://openverse-rpc.validatrium.club`           | `Tendermint` `RPC`        | [Validatrium](https://validatrium.com/) | Pruned  |
+| `https://openverse-rpc.gateway.pokt.network`      | `Ethereum` `JSON-RPC`  | [PocketNetwork](https://www.pokt.network/)  | Pruned  |
+| `https://api-openverse.mms.team:443`              | `Cosmos` `REST`        | [MMS](https://mms.team/) | Pruned  |
+| `https://grpc-openverse.mms.team:443`             | `Cosmos` `gRPC`        | [MMS](https://mms.team/) | Pruned  |
+| `https://rpc-openverse.mms.team:443`              | `Tendermint` `RPC`     | [MMS](https://mms.team/) | Pruned  |
+| `https://jsonrpc-openverse.mms.team:443`          | `Ethereum` `JSON-RPC`  | [MMS](https://mms.team/) | Pruned  |
+| `https://web3endpoints.com/openverse-mainnet`     | `Ethereum` `JSON-RPC`  | [BlockSpaces](https://www.blockspaces.com/web3-infrastructure) | Pruned |
+
+### Testnet
+
+| Address                                      | Category               | Maintainer                              | Node Type  |
+| --------------------------------------------- | ---------------------- | --------------------------------------- | -----------|
+| `https://grpc.bd.openverse.dev:9090`             | `Cosmos` `gRPC`        | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://rest.bd.openverse.dev:1317`             | `Cosmos` `REST`        | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://tendermint.bd.openverse.dev:26657`      | `Tendermint` `RPC`     | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `https://eth.bd.openverse.dev:8545`              | `Ethereum` `JSON-RPC`  | [Blockdaemon](https://blockdaemon.com/) | Archival  |
+| `wss://eth.bd.openverse.dev:8546`                | `Ethereum` `Websocket` | [Blockdaemon](https://blockdaemon.com/) |  --     |
+| `https://openverse-testnet-rpc.polkachu.com:443` | `Tendermint` `RPC`     | [Polkachu](https://polkachu.com)        | Pruned  |
+| `https://rpc-t.openverse.nodestake.top`          | `Tendermint` `RPC`     | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://grpc-t.openverse.nodestake.top`         | `Cosmos` `gRPC`        | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://api-t.openverse.nodestake.top`          | `Cosmos` `REST`        | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://jsonrpc-t.openverse.nodestake.top`      | `Ethereum` `JSON-RPC`  | [NodeStake](https://nodestake.top/)     | Pruned  |
+| `https://openverse-testnet-rpc.qubelabs.io`      | `Tendermint` `RPC`     | [Qubelabs](https://qubelabs.io/)        | Pruned  |
+| `https://openverse-testnet-lcd.qubelabs.io`      | `Cosmos` `REST`        | [Qubelabs](https://qubelabs.io/)        | Pruned  |
+| `https://openverse-testnet-grpc.qubelabs.io:9094`     | `Cosmos` `gRPC`        | [Qubelabs](https://qubelabs.io/)        | Pruned |
+
+## On-Demand Services
+
+### Lava
+
+Lava is the open standard for blockchain RPC and APIs. We make it easy for developers to build web3 applications using blockchain data.
+The Lava Gateway is a simplified web interface that gives developers instant access to blockchain data. The Gateway uses our Server Kit to provide a hosted point of access for developers looking for RPC through the Lava Network. This allows users to manage and configure Web3 APIs through an intuitive controls directly from the browser. While the Lava Server Kit and SDK give greater control and permissionlessness, the Lava Gateway provides the same access to our underlying network with additional niceties such as project management tools and user accounts. This means anyone, regardless of technical acumen, can easily use Lava.
+
+- [Docs](https://docs.lavanet.xyz/)
+- Gateway [signup](https://accounts.lavanet.xyz/) is developers way to access Lava's RPC services.
+- [Gateway tutorial](https://docs.lavanet.xyz/gateway-getting-started)
+- Supports testnet and mainnet
